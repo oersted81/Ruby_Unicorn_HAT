@@ -23,10 +23,10 @@ module Clk_def
 
     def sun  #resolve sun rise/set according coordinate 
       day = Date.new(Time.now.strftime("%Y").to_i, Time.now.strftime("%m").to_i, Time.now.strftime("%d").to_i)
-      latitude = 49.036342
-      longitude = 16.584391
+      latitude = 50.075383 #Prague/Czech 
+      longitude = 14.455366
       sun_times = SunTimes.new
-      sun_rise = sun_times.rise(day, latitude, longitude) + (60*60*2) #UTC to local +2h - Prague
+      sun_rise = sun_times.rise(day, latitude, longitude) + (60*60*2) #UTC to local eg. +2h - Prague
       sun_set = sun_times.set(day, latitude, longitude)  + (60*60*2)
      return sun_rise, sun_set
     end
