@@ -76,7 +76,7 @@ module Clk_def
      return c1, c2, c3
     end
 
-    def brightness(time_now) #set brightness @ day time
+    def brightness(time_now) #set brightness@time
       case time_now
         when 6..21 
           br = 128
