@@ -1,7 +1,7 @@
-# Ruby_Unicorn_HAT
-some ruby examples for Unicorn_HAT and gem ws2812: https://github.com/wejn/ws2812
+# Ruby_Unicorn_HAT_ws2812
+some ruby examples for Unicorn_HAT with gem ws2812: https://github.com/wejn/ws2812
 
-required gem: sun_times, ws2812
+required gems: sun_times, ws2812
 
 digiclock -> hour, date, sun_rise, sun_set: 
 main file: grid2_1.rb
