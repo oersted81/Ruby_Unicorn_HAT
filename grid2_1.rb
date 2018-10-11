@@ -1,5 +1,4 @@
 require 'ws2812'
-require 'benchmark'
 require_relative 'clk_m.rb'
 require_relative 'splash_m.rb'
 include Clk_def
