@@ -1,5 +1,5 @@
 # Ruby_Unicorn_HAT_ws2812
-some ruby examples for Unicorn_HAT with gem ws2812: https://github.com/wejn/ws2812
+some ruby examples for Unicorn_HAT + Raspberry Pi with gem ws2812: https://github.com/wejn/ws2812
 
 required gems: sun_times, ws2812
 
