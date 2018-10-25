@@ -7,5 +7,5 @@ digiclock -> hour, date, sun_rise, sun_set:
 
 main file: grid2_1.rb
 
-![alt image](https://drive.google.com/file/d/16GneSHh1FzFFZbFjraRsUpOI6NLI4ovm/view?usp=sharing)
+![alt image](https://drive.google.com/open?id=16GneSHh1FzFFZbFjraRsUpOI6NLI4ovm)
  
